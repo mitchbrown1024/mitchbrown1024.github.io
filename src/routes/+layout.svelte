@@ -13,7 +13,7 @@
                     <li><a href="/experience" class:active="{page.url.pathname ==='/experience'}">experience</a></li>
                 </ul>
             </nav>
-            <div>
+            <div class="content">
                 {@render children()} 
             </div>
     </div>
@@ -41,7 +41,7 @@
 		list-style-type: none;
 		font-family: Cocogoose;
 		font-weight: lighter;
-        padding:0;
+        padding-left:15px;
 	}
 	a {
 		color: black;
@@ -57,19 +57,23 @@
 	}
 
     a:hover {
-        opacity: 50%;
+        color: grey;
     }
 
     div.line {
-        border-left: 5px solid black;
+        background-color: black;
         height: 70vh;
         position: relative;
         top: 0;
         width: 4px;
+        border-radius: 2.5px;
     }
 
     div.parent {
         display: inline-flex;
+    }
+    div.content {
+        padding-left: 20px;
     }
 
 </style>
