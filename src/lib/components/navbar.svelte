@@ -1,5 +1,13 @@
 <nav>
-	<a href="/">about</a>
-	<a href="/projects">projects</a>
-    <a href="/experience">experience</a>
+	<ul>
+		<li><a href="/">about</a></li>
+		<li><a href="/projects">projects</a></li>
+		<li><a href="/experience">experience</a></li>
+	</ul>
 </nav>
+
+<style>
+	li {
+		display: inline;
+	}
+</style>
