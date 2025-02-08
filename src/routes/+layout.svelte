@@ -47,6 +47,10 @@
 		text-decoration: underline;
 	}
 
+    a:hover {
+        opacity: 50%;
+    }
+
 </style>
 
 {@render children()}
