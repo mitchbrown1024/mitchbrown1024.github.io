@@ -48,7 +48,7 @@
 		text-decoration: none;
 	}
 	li {
-		font-size: 16px;
+		font-size: 20px;
 		margin-right: .3em;
 	}
 
@@ -71,9 +71,11 @@
 
     div.parent {
         display: inline-flex;
+        margin-left: 75px;
+        margin-top: 50px;
     }
     div.content {
-        padding-left: 20px;
+        padding-left: 30px;
     }
 
 </style>
