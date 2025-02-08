@@ -62,7 +62,7 @@
 
     div.line {
         background-color: black;
-        height: 70vh;
+        height: 80vh;
         position: relative;
         top: 0;
         width: 4px;
