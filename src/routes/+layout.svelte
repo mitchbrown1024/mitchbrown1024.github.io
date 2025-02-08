@@ -3,13 +3,21 @@
 	import { page } from '$app/state';
 </script>
 
-<nav>
-	<ul>
-		<li><a href="/" class:active="{page.url.pathname ==='/'}">about, </a></li>
-		<li><a href="/projects" class:active="{page.url.pathname ==='/projects'}">projects, </a></li>
-		<li><a href="/experience" class:active="{page.url.pathname ==='/experience'}">experience</a></li>
-	</ul>
-</nav>
+<div class="parent">
+        <div class="line"></div>
+        <div class="vertical">
+            <nav>
+                <ul>
+                    <li><a href="/" class:active="{page.url.pathname ==='/'}">about, </a></li>
+                    <li><a href="/projects" class:active="{page.url.pathname ==='/projects'}">projects, </a></li>
+                    <li><a href="/experience" class:active="{page.url.pathname ==='/experience'}">experience</a></li>
+                </ul>
+            </nav>
+            <div>
+                {@render children()} 
+            </div>
+    </div>
+</div>
 
 <style>
     @font-face {
@@ -30,9 +38,10 @@
 
 	ul {
 		display: flex;
-		list-style: none;
+		list-style-type: none;
 		font-family: Cocogoose;
 		font-weight: lighter;
+        padding:0;
 	}
 	a {
 		color: black;
@@ -51,6 +60,16 @@
         opacity: 50%;
     }
 
-</style>
+    div.line {
+        border-left: 5px solid black;
+        height: 70vh;
+        position: relative;
+        top: 0;
+        width: 4px;
+    }
 
-{@render children()}
+    div.parent {
+        display: inline-flex;
+    }
+
+</style>
