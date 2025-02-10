@@ -12,7 +12,7 @@
     h1 {
         font-family: Cocogoose;
         font-weight: bold;
-        font-size: 128px;
+        font-size: 100px;
         padding-bottom: 70px;
         line-height: 0;
         margin-bottom: 0px;
@@ -24,7 +24,7 @@
     h2 {
         font-family: Cocogoose;
         font-weight: lighter;
-        font-size: 32px;
+        font-size: 25px;
         line-height: 0;
     }
     div.vertical-flex {
