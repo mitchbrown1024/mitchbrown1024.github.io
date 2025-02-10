@@ -30,7 +30,7 @@
                 <div class="content">
                     {@render children()} 
                 </div>
-        </div>
+            </div>
         </div>
         <div class="empty"></div>
         <div class="icons">
@@ -58,12 +58,17 @@
         src: url(/fonts/cocogoose-thin.ttf) format("truetype");
     }
 
+    nav {
+        flex-grow: 1;
+    }
+
 	ul {
 		display: flex;
 		list-style-type: none;
 		font-family: Cocogoose;
 		font-weight: lighter;
         padding-left:15px;
+        margin-top:0;
 	}
 	a {
 		color: black;
@@ -100,8 +105,7 @@
     }
 
     div.content {
-        padding-top:0;
-        padding-left: 30px;
+        flex-grow: 10;
     }
 
     div.line-icons {
@@ -117,6 +121,12 @@
 
     div.empty {
         height: 20px;
+    }
+
+    div.vertical {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
     :global(body) { /* this will apply to <body> */ margin: 0; padding: 0; }
