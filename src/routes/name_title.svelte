@@ -1,8 +1,14 @@
+<script>
+	import Line from "./line.svelte";
+
+</script>
+
 <div class="vertical-flex">
     <div class="empty"></div>
-    <div>
+    <div class="container">
         <h1>hi, I'm</h1>
         <h1 class = "less-space">mitch brown</h1>
+        <div class="line"><Line width=945 height=35></Line></div>
         <h2>software developer, not designer</h2>
     </div>
     <div class="empty"></div>
@@ -19,18 +25,29 @@
     }
     h1.less-space {
         padding-bottom: 50px;
+        z-index: 9;
     }
-
     h2 {
         font-family: Cocogoose;
         font-weight: lighter;
         font-size: 25px;
         line-height: 0;
     }
+    div.line {
+        position: relative;
+        padding: 0;
+        margin-top: -26px;
+        margin-left: -100px;
+        margin-bottom: -24px;
+        z-index: -9;
+    }
     div.vertical-flex {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-left: 40px;
+    }
+    div.container {
+        position:relative;
     }
 </style>
