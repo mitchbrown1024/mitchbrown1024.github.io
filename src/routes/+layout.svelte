@@ -5,7 +5,6 @@
     let instagram_color = $state("black");
     let linkedin_color = $state("black");
 	import { page } from '$app/state';
-	import { onMount } from 'svelte';
 	import Github from './github.svelte';
     import Instagram from './instagram.svelte';
     import LinkedIn from './linked-in.svelte';
@@ -163,6 +162,11 @@
         padding: 0;
     }
 
-    :global(body) { /* this will apply to <body> */ margin: 0; padding: 0; }
+    :global(body) {
+        margin: 0; 
+        padding: 0; 
+        overflow: hidden; 
+        position: fixed;
+    }
 
 </style>

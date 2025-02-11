@@ -8,7 +8,7 @@
     <div class="container">
         <h1>hi, I'm</h1>
         <h1 class = "less-space">mitch brown</h1>
-        <div class="line"><Line width=945 height=35></Line></div>
+        <div class="line"><Line width=875 height=35></Line></div>
         <h2>software developer, not designer</h2>
     </div>
     <div class="empty"></div>
@@ -37,7 +37,7 @@
         position: relative;
         padding: 0;
         margin-top: -26px;
-        margin-left: -100px;
+        margin-left: -75px;
         margin-bottom: -24px;
         z-index: -9;
     }
