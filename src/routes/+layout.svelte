@@ -45,7 +45,7 @@
     @font-face {
         font-family: Cocogoose;
         font-style: normal;
-        font-display: swap;
+        font-display: block;
         font-weight: bold;
         src: url(/fonts/cocogoose.ttf) format("truetype");
     }
@@ -53,7 +53,7 @@
     @font-face {
         font-family: Cocogoose;
         font-style: normal;
-        font-display: swap;
+        font-display: block;
         font-weight: lighter;
         src: url(/fonts/cocogoose-thin.ttf) format("truetype");
     }
@@ -84,7 +84,7 @@
 	}
 
     a:hover {
-        color: grey;
+        color: white;
     }
 
     div.line {

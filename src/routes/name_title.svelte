@@ -21,7 +21,7 @@
         font-size: 100px;
         padding-bottom: 70px;
         line-height: 0;
-        margin-bottom: 0px;
+        margin-bottom: -20px;
     }
     h1.less-space {
         padding-bottom: 50px;
