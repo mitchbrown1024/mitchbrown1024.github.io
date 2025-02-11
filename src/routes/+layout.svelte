@@ -14,6 +14,10 @@
 
     if(browser) {
         vh = (window.innerHeight - 100) * 0.01;
+        
+        window.addEventListener('resize', () => {
+            vh = (window.innerHeight - 100) * 0.01;
+        });
     }
 </script>
 
