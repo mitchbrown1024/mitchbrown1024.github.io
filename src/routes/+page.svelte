@@ -3,7 +3,7 @@
     import NameTitle from "./name_title.svelte";
 </script>
 
-<div class="circle"><BackgroundCircle></BackgroundCircle></div>
+<div class="circle"><BackgroundCircle color="#0496FF"></BackgroundCircle></div>
 <NameTitle></NameTitle>
 
 <style>
