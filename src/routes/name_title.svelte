@@ -9,7 +9,7 @@
         <h1>hi, I'm</h1>
         <h1 class = "less-space">mitch brown</h1>
         <div class="line"><Line width=875 height=35></Line></div>
-        <h2>software developer, not designer</h2>
+        <h2>software developer, not website designer</h2>
     </div>
     <div class="empty"></div>
 </div>
