@@ -19,14 +19,19 @@
             <br>
             <br>
             Another part of computer science that interests me is the world of AI. I know, I know, everybody is interested
-            in AI now but that has been my dream since I first learned what it was. 
+            in AI now but that has been my dream since I first learned what it was.
+            <br>
+            <br>
+            My dream is to create software that benefits everyone. Software that is accessible and useful for everybody, no matter
+            how much money they have. Because of this I am very interested in Open Source Software. In my ideal world every piece
+            of software would be open source allowing everybody to innovate and benefit from it.
             <br>
             <br>
             Outside the world of computer science I am also an amateur singer/songwriter. I spend a lot of my free time 
             messing around on both the piano and guitar trying to come up with my next catchy melody to put in a song. Also,
-            I love to hike! That's where that image up above comes from. Now, BEFORE you judge how I look I would just like to
-            mention that it was very cold outside and my face wouldn't let me smile. Trust me, my smile is actually quite normal
-            when I'm with you in person.
+            I love to hike! That's where that image up above comes from. Now, <b>BEFORE</b> you judge how I look I would just like to
+            mention that it was <b>VERY</b> cold outside and my face wouldn't let me smile. Trust me, my smile is actually quite normal
+            when I'm a normal temperature.
         </p>
     </div>
 </div>
