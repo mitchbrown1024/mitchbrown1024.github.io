@@ -10,7 +10,6 @@
     import Instagram from './instagram.svelte';
     import LinkedIn from './linked-in.svelte';
     import { browser } from '$app/environment';
-    export const prerender = true;
 
     let vh = $state(100);
 
