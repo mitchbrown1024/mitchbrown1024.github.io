@@ -5,6 +5,7 @@
     let instagram_color = $state("black");
     let linkedin_color = $state("black");
 	import { page } from '$app/state';
+    import { base } from '$app/paths';
 	import Github from './github.svelte';
     import Instagram from './instagram.svelte';
     import LinkedIn from './linked-in.svelte';
@@ -28,9 +29,9 @@
             <div class="vertical">
                 <nav>
                     <ul>
-                        <li><a href="/" class:active="{page.url.pathname ==='/'}">about, </a></li>
-                        <li><a href="/projects" class:active="{page.url.pathname ==='/projects'}">projects, </a></li>
-                        <li><a href="/experience" class:active="{page.url.pathname ==='/experience'}">experience</a></li>
+                        <li><a href="{base}/" class:active="{page.url.pathname ==='/'}">about, </a></li>
+                        <li><a href="{base}/projects" class:active="{page.url.pathname ==='/projects'}">projects, </a></li>
+                        <li><a href="{base}/experience" class:active="{page.url.pathname ==='/experience'}">experience</a></li>
                     </ul>
                 </nav>
                 <div class="content">
