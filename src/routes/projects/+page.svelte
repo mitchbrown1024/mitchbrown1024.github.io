@@ -1,4 +1,5 @@
 <script>
+	import { base } from "$app/paths";
 	import BackgroundCircle from "$lib/components/background_circle.svelte";
 	import MyProjects from "$lib/components/my_projects.svelte";
 	import Github from "../github.svelte";
@@ -12,8 +13,8 @@
     </div>
     <div class="vertical">
         <div class = "horizontal-centered">
-            <img src="/grocery_1.png" alt="grocery app's pantry view" class="iphone">
-            <img src="/grocery_2.png" alt="grocery app's list view" class="iphone">
+            <img src="{base}/grocery_1.png" alt="grocery app's pantry view" class="iphone">
+            <img src="{base}/grocery_2.png" alt="grocery app's list view" class="iphone">
         </div>
         <div class="horizontal">
             <h1>my grocery app</h1>
