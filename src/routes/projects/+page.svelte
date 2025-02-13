@@ -17,7 +17,7 @@
         </div>
         <div class="horizontal">
             <h1>my grocery app</h1>
-            <a href="https://github.com/mitchbrown1024/GroceryApp"><Github size=32 color=black></Github></a> 
+            <a href="https://github.com/mitchbrown1024/GroceryApp" target="_blank"><Github size=32 color=black></Github></a> 
         </div>
         <p>
             This is a grocery app that I am developing because every other grocery app is either

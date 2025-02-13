@@ -2,7 +2,7 @@
     let { size, color } = $props();
 </script>
 
-<a href="https://www.linkedin.com/in/mitchell-brown-3653a32ba" aria-label="Linked In">
+<a href="https://www.linkedin.com/in/mitchell-brown-3653a32ba" aria-label="Linked In" target="_blank">
     <svg width={size} height={size} viewBox="0 0 44 42" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M30 14C33.1826 14 36.2348 15.2643 38.4853 17.5147C40.7357 19.7652 42 22.8174 42 26V40H34V26C34 24.9391 33.5786 23.9217 32.8284 23.1716C32.0783 22.4214 31.0609 22 30 22C28.9391 22 27.9217 22.4214 27.1716 23.1716C26.4214 23.9217 26 24.9391 26 26V40H18V26C18 22.8174 19.2643 19.7652 21.5147 17.5147C23.7652 15.2643 26.8174 14 30 14Z" stroke={color} stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M10 16H2V40H10V16Z" stroke={color} stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
