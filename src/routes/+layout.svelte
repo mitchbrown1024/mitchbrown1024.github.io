@@ -117,9 +117,9 @@
     div.line {
         background-color: black;
         flex-grow: 100;
-        position: relative;
-        top: 0;
-        width: 4px;
+        width: 5px;
+        min-width: 5px;
+        max-width: 5px;
         border-radius: 2.5px;
         margin-left: var(--offset);
     }

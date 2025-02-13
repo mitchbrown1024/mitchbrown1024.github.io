@@ -1,6 +1,6 @@
 <script>
-	import BackgroundCircle from "./background_circle.svelte";
-    import NameTitle from "./name_title.svelte";
+	import BackgroundCircle from "$lib/components/background_circle.svelte";
+    import NameTitle from "$lib/components/name_title.svelte";
 </script>
 
 <div class="horizontal">
@@ -9,7 +9,7 @@
         <NameTitle></NameTitle>
     </div>
     <div class="vertical">
-        <img src="/IMG_1658.jpeg" alt="Mitch Brown">
+        <img src="/my-photo.jpeg" alt="Mitch Brown">
         <h1>about me</h1>
         <p>
             As you can probably see my name is Mitch Brown, and I am a software developer based out of Vancouver.
@@ -63,6 +63,7 @@
         margin-left: -1000px;
         margin-top: -500px;
     }
+    
     img {
         width: 500px;
         height: 300px;
