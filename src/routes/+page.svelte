@@ -49,6 +49,7 @@
         font-family: Cocogoose;
         text-align: justify;
         text-justify: inter-word;
+        font-size: 18px;
     }
     div.horizontal {
         display: flex;
